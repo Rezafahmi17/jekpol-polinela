@@ -1,4 +1,4 @@
-# JEKPOL 🛵
+# JEKPOL
 ### Aplikasi Pemesanan Ojek Online Mahasiswa Politeknik Negeri Lampung
 **Versi:** 1.0  
 **Platform:** Android Mobile Application  
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Ringkasan Implementasi PRD
+## Ringkasan Implementasi PRD
 
 Aplikasi telah dibangun secara penuh mengikuti seluruh spesifikasi dalam **Product Requirements Document (PRD)**:
 
@@ -33,7 +33,7 @@ Aplikasi telah dibangun secara penuh mengikuti seluruh spesifikasi dalam **Produ
 
 ---
 
-## 🚀 Panduan Menjalankan Aplikasi
+## Panduan Menjalankan Aplikasi
 
 ### 1. Persiapan Backend & Database (XAMPP)
 
@@ -73,7 +73,7 @@ Aplikasi telah dibangun secara penuh mengikuti seluruh spesifikasi dalam **Produ
 
 ---
 
-## 🔑 Akun Demo Pengujian (Seed Database)
+## Akun Demo Pengujian (Seed Database)
 
 Semua akun demo di bawah ini menggunakan password: **`password123`**
 
@@ -89,7 +89,7 @@ Semua akun demo di bawah ini menggunakan password: **`password123`**
 
 ---
 
-## 🗺️ Pengaturan Google Maps API Key (Opsional / Rekomendasi)
+## Pengaturan Google Maps API Key (Opsional / Rekomendasi)
 
 Aplikasi sudah memiliki built-in fallback kalkulasi rute dan jarak. Untuk mengaktifkan tampilan visual Google Maps dan rute jalan raya resmi:
 
@@ -108,7 +108,7 @@ Aplikasi sudah memiliki built-in fallback kalkulasi rute dan jarak. Untuk mengak
 
 ---
 
-## 📂 Struktur Direktori Proyek
+## Struktur Direktori Proyek
 
 ```
 ojek/

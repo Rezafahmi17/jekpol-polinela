@@ -1,0 +1,12 @@
+# Teruskan header Authorization ke PHP (Apache di Windows kadang menghapusnya)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP:Authorization} .
+  RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+<FilesMatch "^(config\.php)$">
+  Require all denied
+</FilesMatch>
+

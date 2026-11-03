@@ -1,0 +1,3 @@
+# Dokumen identitas driver tidak boleh diakses langsung; hanya lewat endpoint admin terautentikasi
+Require all denied
+
